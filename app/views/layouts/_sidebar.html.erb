@@ -1,0 +1,60 @@
+<div class="col-md-3">
+  <div class="list-group">
+    <%= link_to('Category', '', class: "list-group-item active") %>
+    <% categories.each do |category| %>
+      <%= link_to(category.description, products_path, class: "list-group-item") %>
+    <% end %>
+  </div>
+  <div>
+      <a href="#" class="list-group-item active ">Size</a>
+      <ul class="nav nav-squared list-group">
+        <li class="">
+          <a href="#" rel="follow" title="PP">
+          <span>PP</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#" rel="follow" title="P">
+          <span>P</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#" rel="follow" title="P/M">
+          <span>P/M</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#" rel="follow" title="M">
+          <span>M</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#" rel="follow" title="M/G">
+          <span>M/G</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#" rel="follow" title="G">
+          <span>G</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#" rel="follow" title="GG">
+          <span>GG</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#" rel="follow" title="GGG">
+          <span>GGG</span>
+          </a>
+        </li>
+      </ul>
+
+  </div>
+  <div class="list-group">
+    <%= link_to('Price', '', class: "list-group-item active") %>
+    <% precos.each do |preco| %>
+      <%= link_to(preco[1], products_path, class: "list-group-item") %>
+    <% end %>
+  </div>
+</div>

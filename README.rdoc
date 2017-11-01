@@ -1,0 +1,29 @@
+== README
+
+O Kamisetas é um simples, porém detalhado Ecommerce de camisetas, é um projeto que serve de base para iniciantes em Ruby on Rails, onde são abordadas várias caracteristicas desse excelente framework. Nele tem exemplo de cadastro de usuários, confirmação de cadastro por email, criação de objetos na sessão(carrinho de compras), validação de formulários, entre outras coisas. O layout é bastante simples, porém bem amigável pois utiliza o bootstrap. Espero que possa ajudar alguem interessado em aprender sobre rails. :)
+
+
+Things you may want to cover:
+
+* Ruby: 2.2.4
+
+* Rails: 4.2.5
+
+* System dependencies
+	
+  - ImageMagik: http://www.redmine.org/projects/redmine/wiki/HowTo_install_rmagick_gem_on_Windows
+  - Mailcatcher: gem install mailcatcher
+  
+
+* Configuration
+
+* Database creation:
+	<tt>- rake db:create</tt>
+
+* Database initialization
+	<tt>- rake utils:seed</tt>
+
+
+
+
+https://github.com/joao-batista/kamisetas/blob/master/preview/printscreen.png
